@@ -1,0 +1,21 @@
+Принцип работы с Реакт 
+
+Этап 5 интерпретация с браузером 
+
+Этап 6 Обновление реального DOM
+
+компоненты (MyButton) пишутся с большой буквы 
+function MyButton() = {
+    return <button> Iam a button</button>
+}
+
+MyButton может использоваться и в другие теги или компоненты 
+export default function Myapp() {
+    return (
+        <div>
+        <h1>Welcome to my app</h1>
+        <MyButton>
+        </div>
+    ); 
+}
+
