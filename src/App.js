@@ -1,11 +1,23 @@
-import "./App.css";
+import Homeworks02 from './Homeworks/Component/Homeworks02';
+import './App.css'
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-        <p>This is our first React app </p>
+    <div className='App'>
+      <header>
+      <h1> Simpson WEB APP</h1>
+      </header>
+      <main>
+        <Homeworks02/>
+      </main>
+      <footer>
+        App links
+      </footer>
+
     </div>
   );
-}
+};
 
 export default App;

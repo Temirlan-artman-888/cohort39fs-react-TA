@@ -1,5 +1,15 @@
 .App {
- display: flex;
- flex-direction: column;
- flex: 1;
-}
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
