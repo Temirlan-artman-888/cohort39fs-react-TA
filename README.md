@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+const buttons = buttonNames.map((name) => {
+    return (
+      <div key={v4()} className="button-control">
+        <Button
+          name={name}
+          onClick={() => {
+            addProducts(name);
+          }}
+        />
+      </div>
+    );
+  });
