@@ -1,9 +1,9 @@
-import Homework3 from './Homeworks/HomeWorks03';
+import Homework04 from './Homeworks/Homeworks04/Homeworks04';
 
 function App() {
   return (
     <div>
-      <Homework3 />
+      <Homework04 />
     </div>
   );
 }

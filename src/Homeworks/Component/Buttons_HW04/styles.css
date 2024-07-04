@@ -1,0 +1,72 @@
+/* Общие стили для всех кнопок */
+/* Стили контейнера */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 5px;
+}
+
+/* Стили для кнопки лайка */
+.like-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.like-button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.like-button:active {
+  background-color: #3e8e41;
+}
+
+/* Стили для кнопки дизлайка */
+.dislike-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.dislike-button:hover {
+  background-color: #e53935;
+  transform: scale(1.1);
+}
+
+.dislike-button:active {
+  background-color: #d32f2f;
+}
+
+/* Стили для кнопки сброса */
+.reset-button {
+  background-color: #008CBA;
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: #007bb5;
+  transform: scale(1.1);
+}
+
+.reset-button:active {
+  background-color: #005f8a;
+}
+
+.counter-display {
+  font-size: 48px;
+  margin: 20px 0;
+  display: flex;
+  display: column;
+}
